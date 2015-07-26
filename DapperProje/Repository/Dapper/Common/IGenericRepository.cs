@@ -11,8 +11,8 @@ namespace DapperProje.Repository.Dapper.Common
         #region operations async
         Task<IEnumerable<T>> GetAllAsync();
         Task<T> UpdateAsync(T obj);
-        Task<bool> DeleteAsync(T obj);
-        Task<bool> AddAsync(T obj);
+        Task<bool> DeleteAsync(int id);
+        Task<object> AddAsync(T obj);
         Task<T> FindByIdAsync(int id);
         Task<T> FindAsync(T obj);
         #endregion

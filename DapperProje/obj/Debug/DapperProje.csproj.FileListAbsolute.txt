@@ -27,3 +27,32 @@ c:\users\gunesx\documents\visual studio 2013\Projects\DapperProje\DapperProje\bi
 c:\users\gunesx\documents\visual studio 2013\Projects\DapperProje\DapperProje\obj\Debug\DapperProje.dll
 c:\users\gunesx\documents\visual studio 2013\Projects\DapperProje\DapperProje\obj\Debug\DapperProje.pdb
 c:\users\gunesx\documents\visual studio 2013\Projects\DapperProje\DapperProje\obj\Debug\DapperProje.csprojResolveAssemblyReference.cache
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\DapperProje.dll.config
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\DapperProje.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\DapperProje.pdb
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Antlr3.Runtime.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Dapper.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Newtonsoft.Json.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Helpers.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Mvc.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Optimization.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Razor.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.WebPages.Deployment.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.WebPages.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.WebPages.Razor.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\WebGrease.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Dapper.pdb
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Dapper.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Helpers.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Mvc.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Optimization.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.Razor.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.WebPages.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.WebPages.Deployment.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\System.Web.WebPages.Razor.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Antlr3.Runtime.pdb
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\bin\Newtonsoft.Json.xml
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\obj\Debug\DapperProje.csprojResolveAssemblyReference.cache
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\obj\Debug\DapperProje.dll
+C:\Users\gunesx\Desktop\DapperProje\DapperProje\obj\Debug\DapperProje.pdb

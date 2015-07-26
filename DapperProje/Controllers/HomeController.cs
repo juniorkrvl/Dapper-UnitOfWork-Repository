@@ -12,7 +12,7 @@ namespace DapperProje.Controllers
 {
     public class HomeController : Controller
     {
-        readonly UserRepository _userRepository = new UserRepository();
+        readonly IUserRepository _userRepository = new UserRepository();
         public async Task<ActionResult> Index()
         {
             var list = await _userRepository.GetAllAsync();
@@ -29,9 +29,12 @@ namespace DapperProje.Controllers
             //call directlly generic repository method like this
             // var result = await _userRepository.AddAsync(usr);
             //or use custom userrepository method depends on what you need
-            var result = await _userRepository.AddUserWithAddress(userModelView.User);
+           // var result = await _userRepository.AddUserWithAddress(userModelView.User);
+            var result = await _userRepository.AddAsync(userModelView.User);
+
+
             _userRepository.CommitChanges();
-            if (result)
+            if ((int)result>0)
             {
                 return RedirectToAction("Index");
             }

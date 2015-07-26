@@ -11,5 +11,7 @@ namespace DapperProje.Repository.Dapper
     interface IUserRepository : IGenericRepository<User>, IUnitOfWork
     {
         Task<bool> AddUserWithAddress(User usr);
+        Task<bool> DeleteUserWithAddress(int userId);
+        Task<User> GetUserDetail(int userId);
     }
 }
