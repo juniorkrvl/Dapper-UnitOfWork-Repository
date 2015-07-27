@@ -13,6 +13,7 @@ namespace DapperProje.Controllers
     public class HomeController : Controller
     {
         readonly IUserRepository _userRepository = new UserRepository();
+
         public async Task<ActionResult> Index()
         {
             var list = await _userRepository.GetAllAsync();
@@ -30,11 +31,10 @@ namespace DapperProje.Controllers
             // var result = await _userRepository.AddAsync(usr);
             //or use custom userrepository method depends on what you need
            // var result = await _userRepository.AddUserWithAddress(userModelView.User);
-            var result = await _userRepository.AddAsync(userModelView.User);
-
-
-            _userRepository.CommitChanges();
-            if ((int)result>0)
+            userModelView.User.Id = 1;
+            var result = await _userRepository.UpdateAsync(userModelView.User);
+           _userRepository.CommitChanges();
+            if (result.Id>0)
             {
                 return RedirectToAction("Index");
             }

@@ -8,11 +8,12 @@ namespace DapperProje.Repository.Dapper.Common
 {
     interface IGenericRepository<T>
     {
+
         #region operations async
         Task<IEnumerable<T>> GetAllAsync();
         Task<T> UpdateAsync(T obj);
-        Task<bool> DeleteAsync(int id);
-        Task<object> AddAsync(T obj);
+        Task<bool> DeleteByIdAsync(int id);
+        Task<int> AddAsync(T obj);
         Task<T> FindByIdAsync(int id);
         Task<T> FindAsync(T obj);
         #endregion
